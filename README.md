@@ -2,7 +2,7 @@
 
 ExpressJS API to interface with [Homebridge Web Garage](https://www.npmjs.com/package/homebridge-web-garage) and [Homebridge](https://github.com/homebridge/homebridge).
 
-[![Watch the video](https://i.imgur.com/QpFG5ey.jpg)](https://i.imgur.com/EsxpNbm.mp4)
+[![Watch the video](https://i.imgur.com/QpFG5eym.jpg)](https://i.imgur.com/EsxpNbm.mp4)
 
 ## Use
 
