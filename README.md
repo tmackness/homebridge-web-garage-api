@@ -8,7 +8,9 @@ ExpressJS API to interface with [Homebridge Web Garage](https://www.npmjs.com/pa
 
 See wiring setup for Relay and Reed switches. [Diagram](https://imgur.com/a/fMZNoQ9)
 
-![Diagram](https://i.imgur.com/ADvvfQB.png)
+[Diagram](https://i.imgur.com/ADvvfQB.png)
+
+[Photo](https://imgur.com/8GJqtxX.jpg)
 
 If you use a different pin you will need to update the pin number in the `config.js` file.
 
