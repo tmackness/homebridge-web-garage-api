@@ -45,6 +45,14 @@ Update homebridge config for the plugin:
 
 5. Install this package
 
+```bash
+curl -Lo app.zip https://github.com/tmackness/homebridge-web-garage-api/archive/master.zip
+unzip app.zip
+rm app.zip
+```
+
+This will be in a directory named: `homebridge-web-garage-api-master`
+
 6. Install PM2 and Run App
 
 `sudo npm i -g pm2`
@@ -53,11 +61,11 @@ Add app to a process:
 
 `pm2 start src/app.js` or `npm run app:pm2`.
 
-Run it with full path: `pm2 start /home/pi/garage-door-opener/src/app.js`
+Run it with full path: `pm2 start /home/pi/homebridge-web-garage-api-master/src/app.js`
 
 Add PM2 startup script to auto start app on reboot (replace `<pi>` with username if run under a different username)
 
-`sudo pm2 startup systemd -u <pi> --hp /home/pi`
+`sudo pm2 startup systemd -u pi --hp /home/pi`
 
 Save the process:
 
