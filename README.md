@@ -2,6 +2,8 @@
 
 ExpressJS API to interface with [Homebridge Web Garage](https://www.npmjs.com/package/homebridge-web-garage) and [Homebridge](https://github.com/homebridge/homebridge).
 
+[Imgur](https://i.imgur.com/EsxpNbm.mp4)
+
 ## Use
 
 1. Raspberry Pi GPIO wiring
